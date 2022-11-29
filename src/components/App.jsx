@@ -1,5 +1,5 @@
-
-export const App = () => {
+import PropTypes from 'prop-types';
+export const App = (props) => {
   return (
     <div
       style={{
@@ -15,3 +15,6 @@ export const App = () => {
     </div>
   );
 };
+App.protoType = {
+   props: PropTypes.object
+ }
